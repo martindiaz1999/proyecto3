@@ -30,8 +30,16 @@ let river = 2010
 let river = true
 if(river == true){console.log(river)  booleano
 }else{console.log("error")}
-*/
 
+
+let valor1 =10
+let valor2 =20
+let valor3=39
+
+if(valor1 <valor2){console.log("river plate")
+}else if(valor2 ==valor3){console.log("boca")
+}else{console.log("error")}
+*/
 $(document).ready(()=>{
 
     $("#botonCalzado").click(()=>{
