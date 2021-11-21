@@ -1,6 +1,7 @@
+
 .titulo1 {
 
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Castellar;
     font-size: 70px;
     letter-spacing: 2px;
     word-spacing: 2px;
@@ -11,6 +12,7 @@
     font-variant: normal;
     text-transform: uppercase;
     text-align: center;
+    border: 9px inset #D02020;
 }
 
 .fondo1 {
@@ -18,7 +20,11 @@
 }
 .borde1 {
 
-border: 5px double #FF0303;
+    border: 9px inset #D02020;
+}
+.sombra1:hover {
+    -webkit-box-shadow: 6px 3px 6px 9px #D60B00; 
+box-shadow: 6px 3px 6px 9px #D60B00;
 }
 
 .fondo2 {
@@ -49,6 +55,15 @@ text-align: center;
     
 }
 .texto4 {
-    color: aliceblue;
+    color: #FC0000;
     text-align: center;
+    font-family: Castellar;
+    border: 9px inset #D02020;
+}
+
+.botone {
+    color: #fdfdfd;
+    background-color: #FC0000;
+    border: 9px inset #D02020;
+    font-family: Castellar;
 }

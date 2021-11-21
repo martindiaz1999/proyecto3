@@ -14,8 +14,8 @@
 
      
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class=" row justify-content-around ">
-              <a class="navbar-brand" href="#">Navbar</a>
+            <div class=" row justify-content-around">
+              <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -49,30 +49,30 @@
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
     
-                <div class="carousel-inner">
+                <div class="carousel-inner row justify-content-around">
                   <div class="carousel-item active">
-                    <img src="./img/Super_Ofertas_-_web_mercado_pago.jpg" class="d-block w-100" alt="...">
+                    <img src="./img/Super_Ofertas_-_web_mercado_pago.jpg" class="d-block w-50" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5></h5>
                       <p></p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/camiseta-de-river-adidas-tercer-recambio-authentic-roja-100020gk2994001-1.jpg" class="d-block w-100" alt="...">
+                    <img src="./img/camiseta-de-river-adidas-tercer-recambio-authentic-roja-100020gk2994001-1.jpg" class="d-block w-50" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5></h5>
                       <p></p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/860030847991001-1.jpg" class="d-block w-100" alt="...">
+                    <img src="./img/860030847991001-1.jpg" class="d-block w-50" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5></h5>
                       <p></p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/zapatillas-de-basquet-adidas-cross-em-up-5-wide-ni_o-ni_a-naranja-100010gz0090001-1.jpg" class="d-block w-100" alt="...">
+                    <img src="./img/zapatillas-de-basquet-adidas-cross-em-up-5-wide-ni_o-ni_a-naranja-100010gz0090001-1.jpg" class="d-block w-50" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5></h5>
                       <p></p>
@@ -95,27 +95,39 @@
            <main>
              <div>
                <div class="row justify-content-around mt-5"><h2 class="texto4 col-8">CATEGORÍAS</h2></div>
-               <button id="botonCalzado">Calzado</button>
-               <button id="botonGuantes">Guantes</button>
-               <button id="botonPelotas">Pelotas</button>
-               <button id="todos">Ver Todos</button>
+               <div class="row justify-content-around mt-5">
+                <button class="botone col-2" id="botonCalzado">Calzado</button>
+               <button class="botone col-2" id="botonGuantes">Guantes</button>
+               <button class="botone col-2" id="botonPelotas">Pelotas</button>
+               <button class="botone col-2" id="botonVestimenta">Vestimenta</button>
+               <button class="botone col-2" id="botonCamisetas">Camisetas</button>
+               <button class="botone col-2" id="todos">Ver Todos</button>
+               </div>
+             </div>
+             <div class="row justify-content-around mt-5">
+               <button id="botonComprar">Comprar</button>
+               <input type="email">
+               <button id="enviar"></button>
              </div>
                <div class="row mt-5 justify-content-around">
-                  <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 calzado">
+                  <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 sombra1 calzado">
                     <div class="col-12"><img class="img-fluid" src="./img/botines-de-futbol-umbro-fifty-3-fg-naranja-755010f70108072-1.jpg"></div>
                     <p class="texto2"> Botines de fútbol Umbro Cancha de 11</p>
                     <h2 class="texto3">$8.500</h2>
+                    <button class="botone" id="botonComprar">Comprar</button>
 
                   </div>
-                  <div class="col-3 mt-5 justify-content-around borde1 fondo2 guantes">
+                  <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 guantes">
                     <div class="col-12"><img class="img-fluid" src="img/guante-de-arquero-reusch-attrakt-supreme-blanco-74004rgu0142001-1.jpg"></div>
                     <p class="texto2"> Guantes de Arquero profesional Reusch</p>
                     <h2 class="texto3">$3.500</h2>
+                    <button class="botone" id="botonComprar">Comprar</button>
                   </div>
-                  <div class="col-3 mt-5 justify-content-around borde1 fondo2 pelotas">
+                  <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 pelotas">
                     <div class="col-12"><img class="img-fluid" src="img/pelota-de-futbol-adidas-tango-allround-numero-5-crudo-100040fh7372001-1.jpg"></div>
                     <p class="texto2"> Pelota de Fútbol N°6 Adidas </p>
                     <h2 class="texto3">$4.000</h2>
+                    <button class="botone" id="botonComprar">Comprar</button>
                   </div>
                   
 
@@ -123,21 +135,24 @@
                </div>
 
                <div class="row mt-5 justify-content-around">
-                <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 calzado">
+                <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 calzado">
                   <div class="col-12"><img class="img-fluid" src="./img/zapas4.jpg"></div>
                   <p class="texto2"> Zapatillas Running under</p>
                   <h2 class="texto3">$9.500</h2>
+                  <button class="botone" id="botonComprar">Comprar</button>
 
                 </div>
-                <div class="col-3 mt-5 justify-content-around borde1 fondo2 guantes">
+                <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 vestimenta">
                   <div class="col-12"><img class="img-fluid" src="./img/pantalon5.jpg"></div>
                   <p class="texto2"> Pantalón Arsenal</p>
                   <h2 class="texto3">$4.200</h2>
+                  <button class="botone col-10" id="botonComprar">Comprar</button>
                 </div>
-                <div class="col-3 mt-5 justify-content-around borde1 fondo2 pelotas">
+                <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 vestimenta">
                   <div class="col-12"><img class="img-fluid" src="./img/campera6.jpg"></div>
                   <p class="texto2"> Campera rompeviento </p>
                   <h2 class="texto3">$4.000</h2>
+                  <button class="botone" id="botonComprar">Comprar</button>
                 </div>
                 
 
@@ -145,21 +160,24 @@
              </div>
 
              <div class="row mt-5 justify-content-around">
-              <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 calzado">
+              <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 sombra1 camisetas">
                 <div class="col-12"><img class="img-fluid" src="./img/remera7.jpg"></div>
                 <p class="texto2"> Remera Bordó</p>
                 <h2 class="texto3">$4.500</h2>
+                <button class="botone" id="botonComprar">Comprar</button>
 
               </div>
-              <div class="col-3 mt-5 justify-content-around borde1 fondo2 calzado">
+              <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 calzado">
                 <div class="col-12"><img class="img-fluid" src="./img/zapas8.jpg"></div>
                 <p class="texto2"> Zapatilla Running Topper</p>
                 <h2 class="texto3">$9.500</h2>
+                <button class="botone" id="botonComprar">Comprar</button>
               </div>
-              <div class="col-3 mt-5 justify-content-around borde1 fondo2 calzado">
+              <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 calzado">
                 <div class="col-12"><img class="img-fluid" src="./img/botines9.jpg"></div>
                 <p class="texto2"> Botines Umbro Futból 11 </p>
                 <h2 class="texto3">$9.000</h2>
+                <button class="botone" id="botonComprar">Comprar</button>
               </div>
               
 
@@ -168,21 +186,24 @@
 
 
            <div class="row mt-5 justify-content-around">
-            <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 pelotas">
+            <div class=" row col-3 mt-5 justify-content-around borde1 fondo2 sombra1 pelotas">
               <div class="col-12"><img class="img-fluid" src="./img/pelota10.jpg"></div>
               <p class="texto2"> Pelota de Basquet</p>
               <h2 class="texto3">$3.500</h2>
+              <button class="botone" id="botonComprar">Comprar</button>
 
             </div>
-            <div class="col-3 mt-5 justify-content-around borde1 fondo2 guantes">
+            <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 vestimenta">
               <div class="col-12"><img class="img-fluid" src="./img/musculosa11.jpg"></div>
               <p class="texto2"> Musculosa Hockey</p>
               <h2 class="texto3">$3.500</h2>
+              <button class="botone" id="botonComprar">Comprar</button>
             </div>
-            <div class="col-3 mt-5 justify-content-around borde1 fondo2 pelotas">
+            <div class="col-3 mt-5 justify-content-around borde1 fondo2 sombra1 camisetas">
               <div class="col-12"><img class="img-fluid" src="./img/camiseta12.jpg"></div>
               <p class="texto2"> Camiseta River Alternativa </p>
               <h2 class="texto3">$6.000</h2>
+              <button class="botone" id="botonComprar">Comprar</button>
             </div>
             
 

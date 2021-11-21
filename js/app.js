@@ -42,29 +42,44 @@ if(valor1 <valor2){console.log("river plate")
 */
 $(document).ready(()=>{
 
+   $("#botonComprar").click(()=>{
+      console.log(200+399)
+   })
+
     $("#botonCalzado").click(()=>{
-        $(".pelotas,.calzado,.guantes").show()
-        $(".pelotas,.guantes").hide()
+        $(".pelotas,.calzado,.guantes,.vestimenta,.camisetas").show()
+        $(".pelotas,.guantes,.vestimenta,.camisetas").hide()
 
     })
 
     $("#botonGuantes").click(()=>{
-        $(".pelotas,.calzado,.guantes").show()
-        $(".pelotas,.calzado").hide()
+        $(".pelotas,.calzado,.guantes,.vestimenta,.camisetas").show()
+        $(".pelotas,.calzado,.vestimenta,.camisetas").hide()
  
      })
 
 
      $("#botonPelotas").click(()=>{
-        $(".pelotas,.calzado,.guantes").show()
-        $(".guantes,.calzado").hide()
+        $(".pelotas,.calzado,.guantes,.vestimenta,.camisetas").show()
+        $(".guantes,.calzado,.vestimenta,.camisetas").hide()
  
  
      })
 
+     $("#botonVestimenta").click(()=>{
+        $(".pelotas,.calzado,.guantes,.vestimenta,.camisetas").show()
+        $(".pelotas,.calzado,.guantes,.camisetas").hide()
+     })
+
+     $("#botonCamisetas").click(()=>{
+        $(".pelotas,.calzado,.guantes,.vestimenta,.camisetas").show()
+        $(".pelotas,.calzado,.guantes,.vestimenta").hide()
+     })
+
+
      $("#todos").click(()=>{
        
-        $(".pelotas,.calzado,.guantes").show()
+        $(".pelotas,.calzado,.guantes,.vestimenta,.camisetas").show()
 
      })
 
